@@ -7,18 +7,23 @@
 //
 
 import Foundation
+import Alamofire
 
-class Weather{
-    
-    var latitude : Double
-    var longitude : Double
-    var timezone : String
-    var currently : Currently
-    
-    init(latitude : Double, longitude : Double, timezone : String,currently : Currently){
-        self.latitude = latitude
-        self.longitude = longitude
+struct Weather {
+
+    let timezone : String
+    let summary : String
+    let temperature : Int
+    let icon : String
+    let longitude : Double
+    let latitude : Double
+   
+    init(timezone : String, summary : String, temperature : Double , icon : String, longitude : Double, latitude : Double) {
         self.timezone = timezone
-        self.currently = currently
+        self.temperature = Int(temperature)
+        self.icon = "\(icon).jpg"
+        self.longitude = longitude
+        self.latitude = latitude
+        self.summary = summary
     }
 }
