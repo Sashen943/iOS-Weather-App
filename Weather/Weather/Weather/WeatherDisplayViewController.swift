@@ -63,7 +63,7 @@ class WeatherDisplayViewController: UIViewController, CLLocationManagerDelegate 
                 self.feel.text = "Feels like  \(weather.temperature)°C"
                 self.summary.text = weather.summary
                 self.location.text = weather.timezone
-                let image = UIImage(named: "clear-day")
+                let image = UIImage(named: weather.icon)
                 self.weathericon.image = image
             }
         }
