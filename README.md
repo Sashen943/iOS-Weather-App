@@ -5,5 +5,5 @@ An iOS application that displays the current weather conditions for your locatio
 
 # Screenshots
 
-<img src="(https://github.com/Sashen943/iOS-Weather-App/blob/dev/screenshots/Splash.png" width="100" height="200" /> <img src="https://github.com/Sashen943/iOS-Weather-App/blob/dev/screenshots/WelcomeScreen.png" width="100" height="200" /> <img src="https://github.com/Sashen943/iOS-Weather-App/blob/dev/screenshots/Weather.png" width="100" height="200" />
+<img src="https://github.com/Sashen943/iOS-Weather-App/blob/dev/screenshots/Splash.png" width="100" height="200" /> <img src="https://github.com/Sashen943/iOS-Weather-App/blob/dev/screenshots/WelcomeScreen.png" width="100" height="200" /> <img src="https://github.com/Sashen943/iOS-Weather-App/blob/dev/screenshots/Weather.png" width="100" height="200" />
 
